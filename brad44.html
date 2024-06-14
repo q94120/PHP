@@ -9,7 +9,7 @@
 <h1>Register</h1>
 <hr>
 <form action="brad46.php" method="post" onsubmit="return verifyForm()">
-    Account:<input name="account"> <br>
+    Account:<input name="account" onblur=""> <span id="mesg"></span> <br>
     Password:<input name="password" type="password"> <br>
     Name:<input name="realname"> <br>
     <input type="submit" value="Register"> <br>
